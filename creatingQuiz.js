@@ -24,12 +24,16 @@ const nighthawk = creatingQuiz('./topics/nighthawk_flashcard_data.txt')
 const dota = creatingQuiz('./topics/dota2.txt')
 const js = creatingQuiz('./topics/js_questions.txt')
 const raccoon = creatingQuiz('./topics/raccoon_flashcard_data.txt')
+const ocean= creatingQuiz('./topics/ocean.txt')
+const autobrands=creatingQuiz('./topics/autobrands.txt')
 
 const quiz = {
     'Ястребы': nighthawk,
     'Dota 2':dota,
     'JavaScript':js,
-    'Еноты':raccoon
+    'Еноты':raccoon,
+    "Океан": ocean,
+    "Автобренды": autobrands
 }
 
 module.exports = quiz
